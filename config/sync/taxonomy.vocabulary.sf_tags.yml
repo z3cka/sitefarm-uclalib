@@ -1,0 +1,11 @@
+uuid: 85f159d7-f16e-48b3-9d3e-cd9ad5cf4fa3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: yL2jS486l5ceox2Ce7FIEI4UW4tI4zeoepRNOxDXVLg
+name: Tags
+vid: sf_tags
+description: 'Keywords which help to classify an piece of content.'
+hierarchy: 0
+weight: 0

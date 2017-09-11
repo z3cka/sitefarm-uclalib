@@ -1,11 +1,11 @@
 country:
-  default: ''
+  default: US
 first_day: 0
 timezone:
-  default: UTC
+  default: America/Los_Angeles
   user:
-    configurable: true
+    configurable: false
     warn: false
     default: 0
 _core:
-  default_config_hash: V9UurX2GPT05NWKG9f2GWQqFG2TRG8vczidwjpy7Woo
+  default_config_hash: FeufuUjB1RtTOZsnag8U45gJG9dSWcG1qVqT2Dbq0T0

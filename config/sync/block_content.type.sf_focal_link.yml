@@ -1,0 +1,10 @@
+uuid: 4119a5b0-c24b-418f-bab6-61499989c93a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: x9kYwYDSe4Ckbpm0mXowC6zUvvoxsoFsWj-BMa7zSNo
+id: sf_focal_link
+label: 'Focal Link'
+revision: 1
+description: 'Useful for adding an arbitrary link with a thumbnail icon.'

@@ -1,0 +1,21 @@
+uuid: bea58c10-14d6-40eb-9fee-8f9342b881bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sf_event_location
+    - node.type.sf_event
+_core:
+  default_config_hash: D5Njkfrsm1_negKEGFTi2qTTpUfBD1ObnszvTSdHzq8
+id: node.sf_event.field_sf_event_location
+field_name: field_sf_event_location
+entity_type: node
+bundle: sf_event
+label: Location
+description: 'Ex. Address, building and room number'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

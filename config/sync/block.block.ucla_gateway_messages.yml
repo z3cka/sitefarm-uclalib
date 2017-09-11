@@ -1,4 +1,4 @@
-uuid: bbc3afd0-0b27-40b0-ac7a-affb2c6a6d2c
+uuid: a70c3381-eb9e-432a-b97d-e2c1af24c11f
 langcode: en
 status: true
 dependencies:
@@ -10,8 +10,8 @@ _core:
   default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
 id: ucla_gateway_messages
 theme: ucla_gateway
-region: content
-weight: -5
+region: top_bar
+weight: 0
 provider: null
 plugin: system_messages_block
 settings:

@@ -1,4 +1,4 @@
-uuid: a2bc20f2-95a2-45fd-8268-3bb1c131e5b3
+uuid: d433e671-542b-46bf-a51c-bd1d0eb6a329
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: ucla_gateway_content
 theme: ucla_gateway
 region: content
-weight: -1
+weight: 0
 provider: null
 plugin: system_main_block
 settings:

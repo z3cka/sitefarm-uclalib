@@ -1,6 +1,6 @@
-uuid: de12e541-acff-4a71-b921-6d6265e3a21d
+uuid: 6753c9f1-d89b-4154-85f0-d39d7fce8bd6
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_mode.node.rss
@@ -9,7 +9,7 @@ dependencies:
     - node
     - user
 _core:
-  default_config_hash: GNfx9kN8-0_KgQ-xf3fjdXCCzZwXCI8T0IPFW8SIe7g
+  default_config_hash: 7wttHAgRUFYmtn7MN3_vBbq2mn3j8IB51R02THvIKfo
 id: frontpage
 label: Frontpage
 module: node

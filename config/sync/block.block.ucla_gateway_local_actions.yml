@@ -1,4 +1,4 @@
-uuid: fb83646b-9528-4555-ac8c-b926a6cd96cb
+uuid: 026efc58-f351-4a2d-a299-07d996550aac
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ _core:
 id: ucla_gateway_local_actions
 theme: ucla_gateway
 region: content
-weight: -2
+weight: -20
 provider: null
 plugin: local_actions_block
 settings:

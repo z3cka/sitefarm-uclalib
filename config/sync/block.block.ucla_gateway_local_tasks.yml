@@ -1,4 +1,4 @@
-uuid: be6d6554-495b-45e3-9cbd-1dacc754537c
+uuid: af07a003-2c76-40de-a2fe-3401b6e4a682
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ _core:
 id: ucla_gateway_local_tasks
 theme: ucla_gateway
 region: content
-weight: -4
+weight: -40
 provider: null
 plugin: local_tasks_block
 settings:

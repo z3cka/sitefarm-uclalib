@@ -1,0 +1,20 @@
+uuid: 38342362-fa51-460d-8baf-63fd72d651a9
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: _qCrcCEjuvxO5o_CQMcsMl8QhZ9BmotfyJEpZdlRrsE
+name: 'Photo Gallery'
+type: sf_photo_gallery
+description: 'Create a multi-image gallery of photos.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

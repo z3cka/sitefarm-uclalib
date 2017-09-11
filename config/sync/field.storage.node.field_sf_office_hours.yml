@@ -1,0 +1,21 @@
+uuid: adf60f5a-b6f6-446c-a026-0b4c1344c9ea
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: SX_nlFN_G6qHno8HFibr1-YzWGdUfjloJDR1ki0uBJo
+id: node.field_sf_office_hours
+field_name: field_sf_office_hours
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

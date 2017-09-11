@@ -1,11 +1,11 @@
 uuid: 7ef26801-e173-42f4-9ba7-a4ebd139adc9
-name: 'UCLA Foo Fighters'
+name: 'Senior Fellows'
 mail: lit_web@library.ucla.edu
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node/1
+  front: /node
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

@@ -1,0 +1,18 @@
+uuid: 376992eb-9a4a-4d8b-a4c1-2e189f918089
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: '-uHOUFOuXi8Tr1lDyLbQczwIqTRJTp30k7EmSjN5eqo'
+name: sf_slideshow_thumbnail
+label: 'Slideshow Thumbnail'
+effects:
+  sf_slideshow_thumbnail_focal_point_scale_and_crop:
+    uuid: sf_slideshow_thumbnail_focal_point_scale_and_crop
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 320
+      height: 180

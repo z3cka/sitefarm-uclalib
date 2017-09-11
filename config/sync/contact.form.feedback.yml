@@ -1,14 +1,14 @@
-uuid: df7c95c0-f117-4cb0-a893-66ab0b10cadc
+uuid: 4c556c28-630c-4e26-9723-25f1c7fce54f
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
 id: feedback
 label: 'Website feedback'
 recipients:
-  - admin@example.com
+  - lit_web@library.ucla.edu
 reply: ''
 weight: 0
-message: 'Your message has been sent.'
-redirect: ''
+message: null
+redirect: null

@@ -1,4 +1,4 @@
-uuid: 30212166-4c69-467f-870d-4df1ad210420
+uuid: b6111944-2dfd-418a-820a-07e8d3510201
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
     - taxonomy
     - user
 _core:
-  default_config_hash: Gy5PaLdfFhtFSRqJxV-DBTF5AocKgNA2CsCNNEbvx4c
+  default_config_hash: xmTunGeXDs6y13NnkPe_5yMuXMspuH0usRy3c_ieJd0
 id: taxonomy_term
 label: 'Taxonomy term'
 module: taxonomy
@@ -185,7 +185,7 @@ display:
           group_type: group
           admin_label: ''
           operator: '='
-          value: '1'
+          value: true
           group: 1
           exposed: false
           expose:
@@ -216,9 +216,8 @@ display:
       style:
         type: default
         options:
-          grouping: {  }
           row_class: ''
-          default_row_class: true
+          default_row_class: false
           uses_fields: false
       row:
         type: 'entity:node'

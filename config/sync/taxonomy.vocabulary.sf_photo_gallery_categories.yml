@@ -1,0 +1,11 @@
+uuid: f82e1d62-20ec-4f27-8dd7-10b3360415d7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ljjCKcNu4HomBHBh4whNNdDV8KoovJveOSnwI_iNBF4
+name: 'Photo Gallery Categories'
+vid: sf_photo_gallery_categories
+description: 'Categories forPhoto Galleries'
+hierarchy: 0
+weight: 0

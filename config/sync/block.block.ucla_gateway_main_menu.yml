@@ -1,4 +1,4 @@
-uuid: 269f4228-bbba-43e7-9be5-b96631fa786d
+uuid: 6df8e183-1fc5-419f-ab09-84bbd0199631
 langcode: en
 status: true
 dependencies:
@@ -12,8 +12,8 @@ _core:
   default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
 id: ucla_gateway_main_menu
 theme: ucla_gateway
-region: nav_main
-weight: -6
+region: top_bar
+weight: 0
 provider: null
 plugin: 'system_menu_block:main'
 settings:

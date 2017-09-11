@@ -1,0 +1,11 @@
+uuid: 41765ab4-2814-4733-aab1-225d81e0a095
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Tpug7C9XmUopoQYI-0YP2664awU2dld8NgpFMEv_1hI
+name: 'Person Type'
+vid: sf_person_type
+description: 'The classification for a Person'
+hierarchy: 0
+weight: 0

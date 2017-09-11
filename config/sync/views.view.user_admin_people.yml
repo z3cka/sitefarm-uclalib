@@ -1,8 +1,9 @@
-uuid: 817d7276-941e-4193-bb7c-370f7904f9e7
+uuid: 98315235-e360-41ef-b070-fbc139b5f01f
 langcode: en
 status: true
 dependencies:
   module:
+    - roleassign
     - user
 _core:
   default_config_hash: wTJRNzsLVTenCALONNlVfgm_pBOlqucSPuVFLOD56ck
