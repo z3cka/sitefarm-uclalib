@@ -1,6 +1,6 @@
 uuid: e5611d8a-7cc5-4ff9-856e-94b74fb9f32e
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.account
@@ -13,7 +13,7 @@ _core:
 id: ucla_gateway_account_menu
 theme: ucla_gateway
 region: top_bar
-weight: 0
+weight: -5
 provider: null
 plugin: 'system_menu_block:account'
 settings:

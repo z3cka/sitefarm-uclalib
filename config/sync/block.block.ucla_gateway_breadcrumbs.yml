@@ -10,8 +10,8 @@ _core:
   default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
 id: ucla_gateway_breadcrumbs
 theme: ucla_gateway
-region: top_bar
-weight: 0
+region: content
+weight: -5
 provider: null
 plugin: system_breadcrumb_block
 settings:

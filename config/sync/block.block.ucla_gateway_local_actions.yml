@@ -9,7 +9,7 @@ _core:
 id: ucla_gateway_local_actions
 theme: ucla_gateway
 region: content
-weight: -20
+weight: -3
 provider: null
 plugin: local_actions_block
 settings:
