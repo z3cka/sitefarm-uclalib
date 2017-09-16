@@ -1,6 +1,6 @@
 {
-  "name": "ucdavis/sitefarm-distro-template",
-  "description": "Drupal 8 SiteFarm distribution template.",
+  "name": "z3cka/sitefarm-uclalib",
+  "description": "UCLA Library Drupal 8 Profile based on SiteFarm.",
   "type": "project",
   "license": "proprietary",
   "authors": [
@@ -10,13 +10,8 @@
       "role": "Copyright Owner"
     },
     {
-      "name": "Shawn DeArmond",
-      "email": "sgdearmond@ucdavis.edu",
-      "role": "Developer"
-    },
-    {
-      "name": "Mark Miller",
-      "email": "mrkmiller@ucdavis.edu",
+      "name": "Casey Grzecka",
+      "email": "cgrzecka@library.ucla.edu",
       "role": "Developer"
     }
   ],
@@ -41,7 +36,8 @@
     "drupal-composer/drupal-scaffold": "^2.2",
     "zendframework/zend-stdlib": "~3.0.1",
     "cweagans/composer-patches": "^1.5",
-    "ucdavis/sitefarm_seed": "dev-8.x-1.x"
+    "ucdavis/sitefarm_seed": "dev-8.x-1.x",
+    "z3cka/ucla_gateway": "dev-master"
   },
   "repositories": {
     "drupal": {
@@ -52,6 +48,10 @@
       "type": "vcs",
       "no-api": true,
       "url": "git@github.com:ucdavis/sitefarm_seed.git"
+    },
+    "z3cka/ucla_gateway": {
+      "type": "vcs",
+      "url": "git@github.com:z3cka/ucla_gateway.git"
     }
   },
   "scripts": {
