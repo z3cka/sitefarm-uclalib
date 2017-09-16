@@ -1,0 +1,16 @@
+uuid: 051530c7-0232-4e30-9f71-1e526e188b6d
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: dr2bAzcPDBOceRp67L5X0YG5IWHEn76YUzzuVshsE9w
+id: default_taxonomy
+label: 'Default Taxonomy'
+type: 'canonical_entities:taxonomy_term'
+pattern: '[term:vocabulary]/[term:name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

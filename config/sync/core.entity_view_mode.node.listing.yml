@@ -1,0 +1,12 @@
+uuid: 36165ea0-5237-439b-ba43-3de3dc5e8b48
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: lV_yL8AH20-PyGR6PDkK_4x6scgQ2vdNzDaXulqI8iE
+id: node.listing
+label: Listing
+targetEntityType: node
+cache: true

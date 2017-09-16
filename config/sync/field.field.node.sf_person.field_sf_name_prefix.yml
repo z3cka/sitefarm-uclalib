@@ -1,0 +1,21 @@
+uuid: a9195377-730c-4bf2-8837-30be4ba81b3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sf_name_prefix
+    - node.type.sf_person
+_core:
+  default_config_hash: UC1vendVHOztIutPTc7Xo6iPsoD3IJ_rZQeQL3uZSek
+id: node.sf_person.field_sf_name_prefix
+field_name: field_sf_name_prefix
+entity_type: node
+bundle: sf_person
+label: 'Name Prefix'
+description: 'Honorific title such as: Mr. Ms. Dr.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

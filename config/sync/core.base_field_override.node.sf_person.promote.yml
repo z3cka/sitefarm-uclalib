@@ -1,0 +1,24 @@
+uuid: 99208785-f15e-4cc1-9875-237d88491640
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sf_person
+_core:
+  default_config_hash: 2rAGNJNvFPGA0n0rHf06RcEcGAAS4nzZGYZgZf1IiSA
+id: node.sf_person.promote
+field_name: promote
+entity_type: node
+bundle: sf_person
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

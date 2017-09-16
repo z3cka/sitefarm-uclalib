@@ -1,0 +1,14 @@
+uuid: 4c556c28-630c-4e26-9723-25f1c7fce54f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - lit_web@library.ucla.edu
+reply: ''
+weight: 0
+message: null
+redirect: null

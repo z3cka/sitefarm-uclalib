@@ -1,0 +1,10 @@
+uuid: 9e1dd1e9-452f-4790-818a-b7186af95f97
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: tDXxjnVhi9bYejii8GLXY51_EWnga4Qvgf-guJkyMdQ
+id: sf_medium_date_and_time
+label: 'Medium Date and Time'
+locked: false
+pattern: 'F d, Y - g:ia'
