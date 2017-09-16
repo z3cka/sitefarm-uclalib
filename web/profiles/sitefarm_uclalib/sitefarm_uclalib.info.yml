@@ -1,0 +1,23 @@
+name: SiteFarm UCLA Library Sub-profile
+type: profile
+description: 'A fast and feature-rich UCLA Library extension of the  UC Davis Drupal distribution. A sub-profile of SiteFarm Seed'
+# version: VERSION
+core: 8.x
+
+# Force the installation of this profile since it is a distribution
+distribution:
+  name: SiteFarm UCLA Library
+
+# Base profile
+base profile: sitefarm_seed
+
+# Required modules
+# dependencies:
+  # core
+  # contrib
+  # SiteFarm
+
+themes:
+  - seven
+  - bartik
+  - ucla_gateway

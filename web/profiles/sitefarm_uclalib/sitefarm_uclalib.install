@@ -1,0 +1,34 @@
+<?php
+/**
+ * @file
+ * Install, update and uninstall functions for the SiteFarm UCLA 
+ * Library installation profile.
+ */
+
+use Drupal\shortcut\Entity\Shortcut;
+
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ *
+ * @see system_install()
+ */
+function sitefarm_uclalib_install() {
+  // Removes the default shortcuts
+  _sitefarm_uclalib_remove_shortcuts();
+}
+
+/**
+ * Removes the default shortcuts.
+ */
+function _sitefarm_uclalib_remove_shortcuts() {
+  $query = \Drupal::entityQuery('shortcut');
+  $shortcuts = $query->execute();
+  foreach ($shortcuts as $key => $link) {
+    if (is_numeric($key)) {
+      $shortcut = Shortcut::load($key);
+      $shortcut->delete();
+    }
+  }
+}
